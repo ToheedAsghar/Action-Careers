@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaPhone, FaWhatsapp, FaEnvelope, FaClock } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 import ContactForm from './ContactForm';
 
 const HomeContact: React.FC = () => {
@@ -34,20 +34,6 @@ const HomeContact: React.FC = () => {
                   <h3 className="text-lg font-semibold text-deep-navy mb-1">Phone</h3>
                   <p className="text-gray-600">
                     <a href="tel:+447428606908" className="hover:text-green transition-colors">
-                      +44 7428 606908
-                    </a>
-                  </p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center mr-4 flex-shrink-0">
-                  <FaWhatsapp className="text-green text-xl" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-deep-navy mb-1">WhatsApp</h3>
-                  <p className="text-gray-600">
-                    <a href="https://wa.me/447428606908" target="_blank" rel="noopener noreferrer" className="hover:text-green transition-colors">
                       +44 7428 606908
                     </a>
                   </p>

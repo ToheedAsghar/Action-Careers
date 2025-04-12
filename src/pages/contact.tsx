@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '../components/Layout';
 import { motion } from 'framer-motion';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaWhatsapp, FaClock, FaMapMarked } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaMapMarked } from 'react-icons/fa';
 import axios from 'axios';
 
 const Contact: React.FC = () => {
@@ -102,25 +102,6 @@ const Contact: React.FC = () => {
                         <h3 className="text-lg font-medium text-deep-navy">Phone</h3>
                         <p className="text-gray-600">
                           <a href="tel:+447428606908" className="hover:text-green transition-colors">
-                            +44 7428 606908
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start">
-                      <div className="w-10 h-10 rounded-full bg-amber-50 flex-shrink-0 flex items-center justify-center mr-4">
-                        <FaWhatsapp className="text-green" />
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-medium text-deep-navy">WhatsApp</h3>
-                        <p className="text-gray-600">
-                          <a 
-                            href="https://wa.me/447428606908" 
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-green transition-colors"
-                          >
                             +44 7428 606908
                           </a>
                         </p>
@@ -283,31 +264,28 @@ const Contact: React.FC = () => {
               </div>
             </div>
             
-            <div className="bg-green/10 rounded-lg p-6 text-center">
-              <h3 className="text-xl font-semibold text-deep-navy mb-2">Prefer direct contact?</h3>
-              <p className="text-gray-600 mb-4">
-                For immediate assistance, reach out to us directly via WhatsApp or phone.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="https://wa.me/447428606908" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn bg-green text-white hover:bg-green-hover flex items-center justify-center space-x-2"
-                >
-                  <FaWhatsapp size={18} />
-                  <span>Chat on WhatsApp</span>
-                </a>
-                
-                <a 
-                  href="tel:+447428606908" 
-                  className="btn bg-deep-navy text-white hover:bg-navy-hover flex items-center justify-center space-x-2"
-                >
-                  <FaPhone size={16} />
-                  <span>Call Us</span>
-                </a>
+            <motion.div 
+              className="mt-12"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+            >
+              <div className="bg-green/10 rounded-lg p-6 text-center">
+                <h3 className="text-xl font-semibold text-deep-navy mb-2">Prefer direct contact?</h3>
+                <p className="text-gray-600 mb-4">
+                  For immediate assistance, reach out to us directly via phone.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a 
+                    href="tel:+447428606908" 
+                    className="btn bg-deep-navy text-white hover:bg-navy-hover flex items-center justify-center space-x-2"
+                  >
+                    <FaPhone size={16} />
+                    <span>Call Us</span>
+                  </a>
+                </div>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>

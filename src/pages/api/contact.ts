@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
+import nodemailer from 'nodemailer';
 
 type ContactFormData = {
   name: string;
@@ -33,16 +34,21 @@ export default async function handler(
   }
 
   try {
-    // Here you would typically use an email service like SendGrid, Mailgun, etc.
-    // For now, this is a placeholder that would be replaced with actual email sending code
-    // This could use a service like SendGrid, AWS SES, Mailgun, etc.
-    
-    // Example with a theoretical email service:
-    /*
-    await axios.post('https://api.emailservice.com/send', {
-      apiKey: process.env.EMAIL_API_KEY,
-      to: 'info@actionstaffing.co.uk',
-      from: email,
+    // Create a transporter using SMTP
+    const transporter = nodemailer.createTransport({
+      host: process.env.EMAIL_HOST,
+      port: parseInt(process.env.EMAIL_PORT || '587'),
+      secure: process.env.EMAIL_SECURE === 'true',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASSWORD,
+      },
+    });
+
+    // Create the email content
+    const mailOptions = {
+      from: `"Action Staffing Website" <${process.env.EMAIL_USER}>`,
+      to: ['info@actionstaffing.co.uk', 'muhammad@actionstaffing.co.uk'],
       subject: `Contact Form: ${subject}`,
       text: `
         Name: ${name}
@@ -61,10 +67,12 @@ export default async function handler(
         <p><strong>Message:</strong></p>
         <p>${message.replace(/\n/g, '<br>')}</p>
       `
-    });
-    */
+    };
 
-    // For now, just simulate success since we don't have an actual email service
+    // Send the email
+    await transporter.sendMail(mailOptions);
+
+    // Log the submission for debugging
     console.log('Contact form submission:', { name, email, phone, subject, message });
     
     // Return success response

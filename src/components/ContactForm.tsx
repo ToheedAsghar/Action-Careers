@@ -64,8 +64,22 @@ const ContactForm: React.FC<ContactFormProps> = ({ className = '', compact = fal
   return (
     <form onSubmit={handleSubmit} className={`space-y-4 ${className}`}>
       {submitStatus.message && (
-        <div className={`p-3 rounded-md ${submitStatus.success ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
-          {submitStatus.message}
+        <div className={`p-4 rounded-md font-medium text-center ${submitStatus.success ? 'bg-green-100 text-green-700 border border-green-300' : 'bg-red-100 text-red-700 border border-red-300'}`}>
+          {submitStatus.success ? (
+            <div className="flex flex-col items-center">
+              <svg className="w-6 h-6 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              {submitStatus.message}
+            </div>
+          ) : (
+            <div className="flex flex-col items-center">
+              <svg className="w-6 h-6 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              {submitStatus.message}
+            </div>
+          )}
         </div>
       )}
       

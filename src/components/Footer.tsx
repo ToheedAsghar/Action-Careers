@@ -1,9 +1,5 @@
 import React from 'react';
 import { 
-  FaFacebookF, 
-  FaTwitter, 
-  FaLinkedinIn, 
-  FaInstagram,
   FaPhone, 
   FaEnvelope, 
   FaMapMarkerAlt,
@@ -28,26 +24,11 @@ const Footer: React.FC = () => {
                 Connecting talented professionals with top employers across the UK. Your career success is our mission.
               </p>
             </div>
-            
-            <div className="flex space-x-3 sm:space-x-4">
-              <a href="https://facebook.com" className="bg-navy-light hover:bg-green w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-colors duration-300">
-                <FaFacebookF size={14} />
-              </a>
-              <a href="https://twitter.com" className="bg-navy-light hover:bg-green w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-colors duration-300">
-                <FaTwitter size={14} />
-              </a>
-              <a href="https://linkedin.com" className="bg-navy-light hover:bg-green w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-colors duration-300">
-                <FaLinkedinIn size={14} />
-              </a>
-              <a href="https://instagram.com" className="bg-navy-light hover:bg-green w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-colors duration-300">
-                <FaInstagram size={14} />
-              </a>
-            </div>
           </div>
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Quick Links</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-green">Quick Links</h3>
             <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base">
               <li>
                 <a href="/" className="text-gray-300 hover:text-green transition-colors duration-300 flex items-center">
@@ -72,7 +53,7 @@ const Footer: React.FC = () => {
           
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Contact Info</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-green">Contact Info</h3>
             <ul className="space-y-3 sm:space-y-4 text-sm sm:text-base">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-green mt-1 mr-2 sm:mr-3 flex-shrink-0" />
