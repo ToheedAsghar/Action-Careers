@@ -31,7 +31,12 @@ const ContactForm: React.FC<ContactFormProps> = ({ className = '', compact = fal
     setSubmitStatus({});
 
     try {
-      const response = await axios.post('/api/contact', formData);
+      // Use the appropriate endpoint based on the environment
+      const apiUrl = process.env.NODE_ENV === 'development' 
+        ? '/api/contact' 
+        : '/.netlify/functions/api';
+      
+      const response = await axios.post(apiUrl, formData);
       
       setSubmitStatus({
         success: true,
