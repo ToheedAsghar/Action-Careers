@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-deep-navy text-white">
       <div className="container-custom px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4 sm:space-y-6">
             <div>
@@ -70,31 +70,6 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           
-          {/* Job Categories */}
-          <div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Job Categories</h3>
-            <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base">
-              <li>
-                <a href="/category/home-care" className="text-gray-300 hover:text-green transition-colors duration-300 flex items-center">
-                  <FaAngleRight className="mr-2 text-green text-xs sm:text-sm flex-shrink-0" />
-                  Home Care
-                </a>
-              </li>
-              <li>
-                <a href="/category/care-homes" className="text-gray-300 hover:text-green transition-colors duration-300 flex items-center">
-                  <FaAngleRight className="mr-2 text-green text-xs sm:text-sm flex-shrink-0" />
-                  Care Homes
-                </a>
-              </li>
-              <li>
-                <a href="/category/hotel" className="text-gray-300 hover:text-green transition-colors duration-300 flex items-center">
-                  <FaAngleRight className="mr-2 text-green text-xs sm:text-sm flex-shrink-0" />
-                  Hotel
-                </a>
-              </li>
-            </ul>
-          </div>
-          
           {/* Contact Info */}
           <div>
             <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Contact Info</h3>
@@ -102,8 +77,8 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-green mt-1 mr-2 sm:mr-3 flex-shrink-0" />
                 <span className="text-gray-300">
-                  123 Recruitment Street<br />
-                  London, W1 9AB<br />
+                  Office 4505 182-184 High Street North<br />
+                  East Ham, London E6 2JA<br />
                   United Kingdom
                 </span>
               </li>
@@ -131,18 +106,6 @@ const Footer: React.FC = () => {
                 </a>
               </li>
             </ul>
-            
-            <div className="mt-4 sm:mt-6">
-              <a 
-                href="https://wa.me/447428606908" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn btn-primary w-full flex items-center justify-center space-x-2 py-2 text-sm sm:text-base"
-              >
-                <FaWhatsapp size={16} className="flex-shrink-0" />
-                <span>Chat with us on WhatsApp</span>
-              </a>
-            </div>
           </div>
         </div>
       </div>

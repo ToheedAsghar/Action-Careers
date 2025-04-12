@@ -97,7 +97,7 @@ const Cookies: NextPage = () => {
                   <br /><br />
                   Email: info@action-careers.co.uk<br />
                   Phone: +44 7428 606908<br />
-                  Address: 123 Recruitment Street, London, W1 9AB, United Kingdom
+                  Address: Office 4505 182-184 High Street North, East Ham, London E6 2JA, United Kingdom
                 </p>
               </section>
             </div>

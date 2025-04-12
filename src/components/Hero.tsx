@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative min-h-screen bg-gradient-to-r from-gray-50 to-gray-100 flex items-center">
+    <div className="relative min-h-screen bg-gray-50 flex items-center">
       <div className="container-custom relative z-10 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Hero Content */}
@@ -95,8 +95,8 @@ const Hero: React.FC = () => {
       </div>
       
       {/* Background Elements */}
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-green-light/10 to-transparent" />
-      <div className="absolute bottom-0 left-0 w-1/2 h-1/3 bg-gradient-to-t from-deep-navy/5 to-transparent" />
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-green-light/5 to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-gray-100 to-transparent" />
     </div>
   );
 };

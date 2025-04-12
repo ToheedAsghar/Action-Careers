@@ -1,34 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHospital, FaHotel, FaHome } from 'react-icons/fa';
+import { FaChild, FaSchool, FaCalendarAlt } from 'react-icons/fa';
 
 const categories = [
   {
     id: 1,
-    name: 'Home Care',
-    icon: <FaHome className="text-green" size={24} />,
+    name: 'Childcare',
+    icon: <FaChild className="text-green" size={24} />,
     count: 256,
     bgClass: 'bg-blue-50',
   },
   {
     id: 2,
-    name: 'Care Homes',
-    icon: <FaHospital className="text-green" size={24} />,
+    name: 'Schools',
+    icon: <FaSchool className="text-green" size={24} />,
     count: 312,
     bgClass: 'bg-purple-50',
   },
   {
     id: 3,
-    name: 'Hotel',
-    icon: <FaHotel className="text-green" size={24} />,
-    count: 195,
+    name: 'Agency Shifts',
+    icon: <FaCalendarAlt className="text-green" size={24} />,
+    count: 50,
     bgClass: 'bg-amber-50',
   }
 ];
 
 const JobCategories: React.FC = () => {
   return (
-    <section className="section bg-gray-50">
+    <section className="section bg-gray-50 pt-0">
       <div className="container-custom px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <motion.h2 
@@ -60,15 +60,13 @@ const JobCategories: React.FC = () => {
               viewport={{ once: true }}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
             >
-              <a href={`/category/${category.name.toLowerCase().replace(/\s+/g, '-')}`} className="block">
-                <div className="p-6">
-                  <div className={`w-16 h-16 rounded-full ${category.bgClass} flex items-center justify-center mb-4`}>
-                    {category.icon}
-                  </div>
-                  <h3 className="text-xl font-semibold text-deep-navy mb-2">{category.name}</h3>
-                  <p className="text-gray-500">{category.count} Jobs Available</p>
+              <div className="p-6">
+                <div className={`w-16 h-16 rounded-full ${category.bgClass} flex items-center justify-center mb-4`}>
+                  {category.icon}
                 </div>
-              </a>
+                <h3 className="text-xl font-semibold text-deep-navy mb-2">{category.name}</h3>
+                <p className="text-gray-500">{category.count} Jobs Available</p>
+              </div>
             </motion.div>
           ))}
         </div>

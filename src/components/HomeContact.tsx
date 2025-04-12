@@ -19,8 +19,8 @@ const HomeContact: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-deep-navy mb-1">Our Address</h3>
                   <p className="text-gray-600">
-                    123 Recruitment Street<br />
-                    London, W1 9AB<br />
+                    Office 4505 182-184 High Street North<br />
+                    East Ham, London E6 2JA<br />
                     United Kingdom
                   </p>
                 </div>
