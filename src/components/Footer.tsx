@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4 sm:space-y-6">
             <div>
               <a href="/" className="text-xl sm:text-2xl font-bold font-heading">
-                Action<span className="text-green">Careers</span>
+                Action<span className="text-green">Staffing</span>
               </a>
               <p className="mt-3 sm:mt-4 text-sm sm:text-base text-gray-300">
                 Connecting talented professionals with top employers across the UK. Your career success is our mission.
@@ -101,8 +101,8 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="text-green mr-2 sm:mr-3 flex-shrink-0" />
-                <a href="mailto:info@action-careers.co.uk" className="text-gray-300 hover:text-green transition-colors duration-300">
-                  info@action-careers.co.uk
+                <a href="mailto:info@actionstaffing.co.uk" className="text-gray-300 hover:text-green transition-colors duration-300">
+                  info@actionstaffing.co.uk
                 </a>
               </li>
             </ul>
@@ -114,7 +114,7 @@ const Footer: React.FC = () => {
       <div className="border-t border-navy-light">
         <div className="container-custom px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs sm:text-sm text-gray-400">
-            &copy; {currentYear} Action Careers. All rights reserved.
+            &copy; {currentYear} Action Staffing. All rights reserved.
           </p>
           
           <div className="mt-3 md:mt-0">

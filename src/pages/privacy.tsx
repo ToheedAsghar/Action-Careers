@@ -8,8 +8,8 @@ const Privacy: NextPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Privacy Policy | Action Careers</title>
-        <meta name="description" content="Privacy Policy for Action Careers - Learn how we protect your personal information" />
+        <title>Privacy Policy | Action Staffing</title>
+        <meta name="description" content="Privacy Policy for Action Staffing - Learn how we protect your personal information" />
       </Head>
       <div className="bg-gray-50 py-16 md:py-24">
         <div className="container-custom">
@@ -26,7 +26,7 @@ const Privacy: NextPage = () => {
               <section>
                 <h2 className="text-2xl font-semibold text-deep-navy mb-4">Introduction</h2>
                 <p className="text-gray-600 leading-relaxed">
-                  At Action Careers, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
+                  At Action Staffing, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
                 </p>
               </section>
               
@@ -82,7 +82,7 @@ const Privacy: NextPage = () => {
                   <li>Right to withdraw consent.</li>
                 </ul>
                 <p className="text-gray-600 leading-relaxed mt-4">
-                  If you wish to exercise any of the rights set out above, please contact us at info@action-careers.co.uk.
+                  If you wish to exercise any of the rights set out above, please contact us at info@actionstaffing.co.uk.
                 </p>
               </section>
               
@@ -91,7 +91,7 @@ const Privacy: NextPage = () => {
                 <p className="text-gray-600 leading-relaxed">
                   If you have any questions about this privacy policy or our privacy practices, please contact us at:
                   <br /><br />
-                  Email: info@action-careers.co.uk<br />
+                  Email: info@actionstaffing.co.uk<br />
                   Phone: +44 7428 606908<br />
                   Address: Office 4505 182-184 High Street North, East Ham, London E6 2JA, United Kingdom
                 </p>

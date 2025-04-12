@@ -41,7 +41,7 @@ export default async function handler(
     /*
     await axios.post('https://api.emailservice.com/send', {
       apiKey: process.env.EMAIL_API_KEY,
-      to: 'info@action-careers.co.uk',
+      to: 'info@actionstaffing.co.uk',
       from: email,
       subject: `Contact Form: ${subject}`,
       text: `

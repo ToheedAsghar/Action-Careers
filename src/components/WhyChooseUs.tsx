@@ -60,12 +60,12 @@ const WhyChooseUs: React.FC = () => {
       <div className="container-custom px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <motion.h2 
-            className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4"
+            className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-center"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Why Choose <span className="text-green">Action Careers</span>
+            Why Choose <span className="text-green">Action Staffing</span>
           </motion.h2>
           <motion.p 
             className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto"

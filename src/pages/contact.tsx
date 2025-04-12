@@ -135,10 +135,10 @@ const Contact: React.FC = () => {
                         <h3 className="text-lg font-medium text-deep-navy">Email</h3>
                         <p className="text-gray-600">
                           <a 
-                            href="mailto:info@action-careers.co.uk" 
+                            href="mailto:info@actionstaffing.co.uk" 
                             className="hover:text-green transition-colors"
                           >
-                            info@action-careers.co.uk
+                            info@actionstaffing.co.uk
                           </a>
                         </p>
                       </div>

@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              Action Careers connects talented young professionals with the right employers. Browse our listings and contact us directly for your next career move.
+              Action Staffing connects talented young professionals with the right employers. Browse our listings and contact us directly for your next career move.
             </motion.p>
             
             {/* Connect with a Recruiter CTA */}

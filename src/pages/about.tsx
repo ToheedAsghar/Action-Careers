@@ -14,18 +14,18 @@ const About: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className="text-3xl md:text-5xl font-bold mb-6 text-deep-navy">About <span className="text-green">Action Careers</span></h1>
+              <h1 className="text-3xl md:text-5xl font-bold mb-6 text-deep-navy">About <span className="text-green">Action Staffing</span></h1>
               
               <div className="bg-white rounded-xl shadow-md p-6 md:p-8 mb-10">
                 <h2 className="text-2xl font-semibold mb-4 text-deep-navy">Our Story</h2>
-                <p className="text-gray-600 mb-6">
-                  Founded in 2015, Action Careers has established itself as a leading recruitment agency specializing in the home care, care homes, and hospitality sectors. What began as a small operation has grown into a trusted partner for both job seekers and employers across the United Kingdom.
+                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                  Founded in 2015, Action Staffing has established itself as a leading recruitment agency specializing in the home care, care homes, and hospitality sectors. What began as a small operation has grown into a trusted partner for both job seekers and employers across the United Kingdom.
                 </p>
                 <p className="text-gray-600 mb-6">
                   Our team consists of experienced recruiters who understand the unique demands and qualifications needed in these specialized fields. We take pride in our personalized approach, taking the time to understand both our clients' requirements and our candidates' career aspirations.
                 </p>
-                <p className="text-gray-600">
-                  At Action Careers, we believe that finding the right job should be straightforward and stress-free. Our mission is to connect talented professionals with rewarding opportunities where they can thrive and make a difference.
+                <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                  At Action Staffing, we believe that finding the right job should be straightforward and stress-free. Our mission is to connect talented professionals with rewarding opportunities where they can thrive and make a difference.
                 </p>
               </div>
               

@@ -31,7 +31,7 @@ const CTA: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Contact Action Careers today to discuss your career options or hiring needs. Our expert team is ready to assist you with personalized recruitment solutions.
+              Contact Action Staffing today to discuss your career options or hiring needs. Our expert team is ready to assist you with personalized recruitment solutions.
             </motion.p>
             
             <motion.div 
@@ -51,7 +51,7 @@ const CTA: React.FC = () => {
               </a>
               
               <a 
-                href="mailto:info@action-careers.co.uk" 
+                href="mailto:info@actionstaffing.co.uk" 
                 className="btn bg-white text-deep-navy hover:bg-gray-100 flex items-center justify-center space-x-2 text-sm sm:text-base py-2 sm:py-3"
               >
                 <FaEnvelope className="flex-shrink-0" />

@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           transition={{ duration: 0.5 }}
         >
           <span className="text-xl sm:text-2xl font-bold font-heading text-deep-navy">
-            Action<span className="text-green">Careers</span>
+            Action<span className="text-green">Staffing</span>
           </span>
         </motion.a>
 
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
               <span>WhatsApp</span>
             </a>
             <a 
-              href="mailto:info@action-careers.co.uk" 
+              href="mailto:info@actionstaffing.co.uk" 
               className="border border-green text-green rounded-md px-4 py-2.5 flex items-center justify-center hover:bg-green-50 transition-all duration-300"
               aria-label="Email Us"
             >
@@ -119,7 +119,7 @@ const Navbar: React.FC = () => {
                 <span>WhatsApp</span>
               </a>
               <a 
-                href="mailto:info@action-careers.co.uk" 
+                href="mailto:info@actionstaffing.co.uk" 
                 className="border border-green text-green rounded-md flex-1 py-2.5 flex items-center justify-center hover:bg-green-50 transition-all duration-300"
                 aria-label="Email Us"
               >

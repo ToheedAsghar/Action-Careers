@@ -61,8 +61,8 @@ const HomeContact: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-deep-navy mb-1">Email</h3>
                   <p className="text-gray-600">
-                    <a href="mailto:info@action-careers.co.uk" className="hover:text-green transition-colors">
-                      info@action-careers.co.uk
+                    <a href="mailto:info@actionstaffing.co.uk" className="hover:text-green transition-colors">
+                      info@actionstaffing.co.uk
                     </a>
                   </p>
                 </div>

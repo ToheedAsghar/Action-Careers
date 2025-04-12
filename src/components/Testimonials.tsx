@@ -13,7 +13,7 @@ const testimonials = [
     role: 'Care Home Manager',
     company: 'Sunnydale Care Home',
     icon: <FaHospital className="text-green" size={24} />,
-    quote: 'Action Careers has been our go-to recruitment partner for the past 3 years. They consistently provide us with qualified care staff who genuinely care about our residents. Their understanding of the care sector is unmatched, and they take the time to ensure candidates are a good fit for our culture.',
+    quote: 'Action Staffing has been our go-to recruitment partner for the past 3 years. They consistently provide us with qualified care staff who genuinely care about our residents. Their understanding of the care sector makes all the difference.',
     rating: 5,
   },
   {
@@ -22,7 +22,7 @@ const testimonials = [
     role: 'Registered Nurse',
     company: 'Home Care Professional',
     icon: <FaHospital className="text-green" size={24} />,
-    quote: 'After struggling to find a flexible position that worked with my family commitments, Action Careers connected me with a home care role that has transformed my work-life balance. They were professional throughout and really listened to what I needed. Been working in my new role for 8 months now and couldn\'t be happier.',
+    quote: 'After struggling to find a flexible position that worked with my family commitments, Action Staffing connected me with a home care role that has transformed my work-life balance. They were professional throughout and really listened to what I needed. Been working in my new role for 8 months now and couldn\'t be happier.',
     rating: 5,
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     role: 'Operations Director',
     company: 'Grand Hotel London',
     icon: <FaHotel className="text-green" size={24} />,
-    quote: 'We\'ve worked with several recruitment agencies, but Action Careers stands out for their hospitality industry knowledge. They understand the specific demands of hotel staffing and have helped us fill positions from housekeeping to management with quality candidates who stay long-term.',
+    quote: 'We\'ve worked with several recruitment agencies, but Action Staffing stands out for their hospitality industry knowledge. They understand the specific demands of hotel staffing and have helped us fill positions from housekeeping to management with quality candidates who stay long-term.',
     rating: 4,
   },
   {
@@ -40,7 +40,7 @@ const testimonials = [
     role: 'Healthcare Assistant',
     company: 'Oakwood Care Services',
     icon: <FaHospital className="text-green" size={24} />,
-    quote: 'I was looking to transition from retail to healthcare, but many agencies dismissed me due to lack of experience. Action Careers took the time to recognize my transferable skills and helped me secure a role in home care. They provided guidance with my CV and interview preparation. Six months in and I\'ve already been promoted!',
+    quote: 'I was looking to transition from retail to healthcare, but many agencies dismissed me due to lack of experience. Action Staffing took the time to recognize my transferable skills and helped me secure a role in home care. They provided guidance with my CV and interview preparation. Six months in and I\'ve already been promoted!',
     rating: 5,
   },
   {
@@ -49,7 +49,7 @@ const testimonials = [
     role: 'Front Office Manager',
     company: 'Riverside Hotel Group',
     icon: <FaHotel className="text-green" size={24} />,
-    quote: 'Action Careers found me a position that perfectly matched my experience and career aspirations. What impressed me most was their honest feedback and the detailed information they provided about the hotel before my interview. This preparation was invaluable and helped me secure the role. Their aftercare service is also excellent.',
+    quote: 'Action Staffing found me a position that perfectly matched my experience and career aspirations. What impressed me most was their honest feedback and the detailed information they provided about the hotel before my interview. This preparation was invaluable and helped me secure the role. Their aftercare service is also excellent.',
     rating: 5,
   },
   {
@@ -58,7 +58,7 @@ const testimonials = [
     role: 'Care Home Director',
     company: 'Evergreen Residential Homes',
     icon: <FaBuilding className="text-green" size={24} />,
-    quote: 'Opening a new care home location meant we needed to hire 30+ staff quickly without compromising on quality. Action Careers delivered exceptionally, understanding our values and finding candidates who shared our commitment to person-centered care. Their sector expertise saved us time and ensured we found the right people.',
+    quote: 'Opening a new care home location meant we needed to hire 30+ staff quickly without compromising on quality. Action Staffing delivered exceptionally, understanding our values and finding candidates who shared our commitment to person-centered care. Their sector expertise saved us time and ensured we found the right people.',
     rating: 5,
   },
 ];
@@ -105,7 +105,7 @@ const Testimonials: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Hear from professionals and employers in home care, care homes, and hospitality who have found success with Action Careers
+            Hear from professionals and employers in home care, care homes, and hospitality who have found success with Action Staffing
           </motion.p>
         </div>
 

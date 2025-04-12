@@ -12,21 +12,21 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-          <meta name="description" content="Action Careers - Find your dream job with the UK's leading recruitment agency" />
+          <meta name="description" content="Action Staffing - Find your dream job with the UK's leading recruitment agency" />
           <meta name="keywords" content="jobs, careers, recruitment, hiring, employment, London, UK" />
           <link rel="icon" href="/favicon.ico" />
           
           {/* Add custom meta tags for SEO */}
-          <meta property="og:title" content="Action Careers | Professional Recruitment Agency" />
-          <meta property="og:description" content="Action Careers connects talented professionals with top employers across the UK. Find your dream job today!" />
+          <meta property="og:title" content="Action Staffing | Professional Recruitment Agency" />
+          <meta property="og:description" content="Action Staffing connects talented professionals with top employers across the UK. Find your dream job today!" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://action-careers.co.uk" />
-          <meta property="og:image" content="https://action-careers.co.uk/og-image.jpg" />
+          <meta property="og:url" content="https://actionstaffing.co.uk" />
+          <meta property="og:image" content="https://actionstaffing.co.uk/og-image.jpg" />
           
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Action Careers | Professional Recruitment Agency" />
-          <meta name="twitter:description" content="Action Careers connects talented professionals with top employers across the UK. Find your dream job today!" />
-          <meta name="twitter:image" content="https://action-careers.co.uk/twitter-image.jpg" />
+          <meta name="twitter:title" content="Action Staffing | Professional Recruitment Agency" />
+          <meta name="twitter:description" content="Action Staffing connects talented professionals with top employers across the UK. Find your dream job today!" />
+          <meta name="twitter:image" content="https://actionstaffing.co.uk/twitter-image.jpg" />
           
           {/* Preload fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
